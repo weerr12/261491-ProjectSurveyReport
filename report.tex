@@ -1,0 +1,64 @@
+\documentclass[semifinal]{cpecmu}
+
+\projectNo{S002-2/65}
+\acadyear{2022}
+
+\titleTH{เกมแนวสยองขวัญที่ใช้ความร่วมมือของผู้เล่นสองคน}
+\titleEN{Two-player Cooperative Horror Game}
+
+\author{นายธนดล เดชประภากร}{Tanadol Deachprapakorn}{630610734}
+\author{นายภูริช สีนวลแล}{Purich Seenaullae}{630610752}
+
+\cpeadvisor{karn}
+\cpecommittee{sakgasit}
+\cpecommittee{patiwet}
+
+\usepackage[final]{graphicx}
+\usepackage{subcaption}
+\PassOptionsToPackage{hyphens}{url}
+\usepackage{url}
+\usepackage[colorlinks=true,allcolors=Blue4,citecolor=red,linktoc=all]{hyperref}
+\def\UrlLeft#1\UrlRight{$#1$}
+\usepackage{afterpage}
+\usepackage{pdflscape}
+
+\begin{document}
+
+% \include{chapters/frontmatter}
+\pagestyle{empty}\cleardoublepage
+\normalspacing \setcounter{page}{1} \pagenumbering{arabic} \pagestyle{cpecmu}
+
+% \include{chapters/intro}
+% \include{chapters/background}
+% \include{chapters/approach}
+% \include{chapters/eval}
+
+\ifproject
+\include{chapters/conclusion}
+\fi
+
+\bibliography{report}
+\bibliographystyle{plainurl}
+
+\ifproject
+\normalspacing
+\appendix
+\include{chapters/appendix}
+
+\ifglossary\glossarypage\fi
+\ifindex\indexpage\fi
+
+\begin{biosketch}
+  \begin{center}
+    \includegraphics[width=1.5in]{./img/phu.png}
+  \end{center}
+  \textbf{นายธนดล เดชประภากร} Tanadol Deachprapakorn \\
+  \textbf{รหัสนักศึกษา}: 630610734 \\
+  \textbf{อีเมล}: \href{mailto:tanadol_de@cmu.ac.th}{tanadol\_de@cmu.ac.th}
+  \begin{itemize}
+    \item เข้าร่วม Global Game Jam 2023 ที่เชียงใหม่
+    \item เข้าร่วม The 3rd Kibo Robot Programming Challenge 2022 จัดโดย สำนักงานพัฒนาวิทยาศาสตร์และเทคโนโลยีแห่งชาติ(สวทช.) และองค์การสำรวจอวกาศญี่ปุ่น (JAXA) - ได้รับรางวัล Top 20th Finalist เป็นผู้ชนะเลิศอันดับที่ 4
+    \item เข้าร่วม Faipa Hackathon วิเคราะห์และบริหารวิกฤตการณ์ไฟป่าด้วยเทคโนโลยีดาวเทียมและ Big Data – ได้รับรางวัลรองชนะเลิศอันดับที่ 2 ร่วมคิดการบูรณการ Hotspot, sensor, การสื่อสาร วิธีการรับมือไฟป่า
+    \item เข้าร่วมโครงการพัฒนาระบบนิเวศเพื่อสร้างผู้ประกอบการรุ่นใหม่ (Entrepreneurial Ecosystem Development) จัดโดย อุทยานวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยเชียงใหม่
+    \item เข้าร่วม สู้ (ทัน) ควัน 32hrs. Hackathon นวัตกรรม สู้หมอกควัน - ได้รับรางวัลชนะเลิศอันดับที่ 1 ร่วมคิดการตรวจจับไฟป่า และแจ้งเตือน โดยใช้อากาศยานไร้คนขับ
+    \item เข้าร่วมโครงการเสวนาวิชาการและแข่งขัน Hackathon การมีส่วนร่วมของประชาชนในการแก้ไขรัฐธรรมนูญและเสนอนโยบาย ครั้งที่ 1 – ได้รับรางวัลชนะเลิศ
